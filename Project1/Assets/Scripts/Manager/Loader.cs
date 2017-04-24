@@ -12,7 +12,7 @@ public class Loader : MonoBehaviour
         if (GameManager._instance == null)
             Instantiate(_gameManager);
 
-        SceneManager. LoadScene(1);
+        SceneManager.LoadScene(1);
     }
 
 }
